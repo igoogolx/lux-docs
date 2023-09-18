@@ -6,6 +6,15 @@ sidebar_position: 1
 
 
 
+:::tip
+On macOS, you need to manually configure system DNS to hijack.
+
+```sh
+# replace "Wi-Fi" according to your actual network
+networksetup -setdnsservers Wi-Fi 8.8.8.8
+```
+:::
+
 ### Install it manually
 1. Download the [installer](https://github.com/igoogolx/lux/releases) file and install it
 2. Open it like a normal app
@@ -16,12 +25,5 @@ winget install igoogolx.lux
 ```
 
 
-:::tip My tip
 
-On macOS, you need to manually configure system DNS to hijack.
-
-```sh
-# replace "Wi-Fi" according to your actual network
-networksetup -setdnsservers Wi-Fi 8.8.8.8
-```
 
