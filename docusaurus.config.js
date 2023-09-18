@@ -67,7 +67,7 @@ const config = {
         title: 'Lux',
         logo: {
           alt: 'My Site Logo',
-          src: 'static/img/logo.svg',
+          src: '/lux-docs/img/logo.svg',
         },
         items: [
           {

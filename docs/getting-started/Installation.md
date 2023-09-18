@@ -2,15 +2,15 @@
 sidebar_position: 1
 ---
 
-# Getting started
+# Installation
 
 
 
-### 1. Install it manually
+### Install it manually
 1. Download the [installer](https://github.com/igoogolx/lux/releases) file and install it
 2. Open it like a normal app
 
-### 2. Install it from [winget](https://github.com/microsoft/winget-cli)(windows only)
+### Install it from [winget](https://github.com/microsoft/winget-cli)(windows only)
 ```sh
 winget install igoogolx.lux
 ```
