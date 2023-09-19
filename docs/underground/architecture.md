@@ -6,12 +6,12 @@ sidebar_position: 0
 
 Lux is not a single language technology stack but rather a multi-language, multi-module hybrid architecture. The main technologies involved include:
 
-## Multiple modules: 
+## Multiple modules
 
-lux-geodata (Golang), 
-itun2socks (Golang), 
-lux-client (React), 
-lux (Flutter).
+* lux-geodata (Golang)  
+* itun2socks (Golang)
+* lux-client (React)
+* lux (Flutter)
 
 TODO: Module dependency relationships.
 
