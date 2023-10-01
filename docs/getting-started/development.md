@@ -27,7 +27,7 @@ git clone https://github.com/igoogolx/lux.git
 
 ```
 
-## Start local dev
+## Start local development
 
 ### Core
 :::caution

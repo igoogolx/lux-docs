@@ -14,15 +14,21 @@ function getVersionFromTag(tag: string) {
 
 function downloadRelease(os:string,tag:string){
    let url =""
-
    switch (os){
       case "windows":{
          url=`https://github.com/igoogolx/lux/releases/download/v${tag}/lux-${tag}+${tag}-windows-setup.exe`
          break
       }
+      case "mac-intel":{
+         url=`https://github.com/igoogolx/lux/releases/download/v${tag}/lux-${tag}-amd64-macos.dmg`
+         break
+      }
+      case "mac-arm":{
+         url=`https://github.com/igoogolx/lux/releases/download/v${tag}/lux-${tag}-arm64-macos.dmg`
+         break
+      }
    }
    window.open(url,"_self")
-
 }
 
 export default function Download(){
@@ -33,7 +39,15 @@ export default function Download(){
          console.log(tag)
       })
    },[])
-   return <button onClick={()=>{
-      downloadRelease("windows", latestTag)
-   }}>Download</button>
+   return <div>
+      <button onClick={()=>{
+         downloadRelease("windows", latestTag)
+      }}>Download For Windows</button>
+      <button onClick={()=>{
+         downloadRelease("mac-intel", latestTag)
+      }}>Download For Mac Intel</button>
+      <button onClick={()=>{
+         downloadRelease("mac-arm", latestTag)
+      }}>Download For Mac Silicon</button>
+   </div>
 }
