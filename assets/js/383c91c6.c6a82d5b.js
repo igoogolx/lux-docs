@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunklux_docs=self.webpackChunklux_docs||[]).push([[9075],{3325:s=>{s.exports=JSON.parse('{"permalink":"/lux-docs/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

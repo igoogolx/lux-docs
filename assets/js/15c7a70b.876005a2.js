@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunklux_docs=self.webpackChunklux_docs||[]).push([[9888],{2816:e=>{e.exports=JSON.parse('{"permalink":"/lux-docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
