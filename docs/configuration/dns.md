@@ -4,7 +4,6 @@ sidebar_position: 2
 
 # Dns
 
-
 There are 3 dns servers in Lux.
 * Local dns: look up domains that need to be connected directly.
 * Remote dns: look up domains that need to be connected by proxy
@@ -18,16 +17,16 @@ If a domain is resolved through Local DNS, its requests will not go through the 
 
 :::
 
-Supported Dns:
+## Supported Dns
 * Tcp: tcp://8.8.8.8
 * Doh: https://dns.google/dns-query
 * Dot:
 * Dhcp: dhcp://auto
 
 
-|      | Local dns | Remote dns | Boost dns |
-|------|-----------|------------|-----------|
-| Tcp  | Yes       | Yes        | Yes       |
-| Doh  | Yes       | Yes        | No        |
-| Dot  | Yes       | Yes        | Yes       |
-| Dhcp | Yes       | No         | No        |
+|      | Local dns | Remote dns | Boost dns  |
+|------|-----------|------------|------------|
+| Tcp  | Y         | Y          | Y          |
+| Doh  | Y         | Y          | N          |
+| Dot  | Y         | Y          | Y          |
+| Dhcp | Y         | N          | N          |
