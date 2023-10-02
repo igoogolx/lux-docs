@@ -62,9 +62,14 @@ export default function Download(props: DownloadProps) {
                    className={styles.container}
     >
         {
-            type === DownloadType.windows ?
-                <WindowsSvg className={styles.icon}/> :
-                <AppleSvg className={styles.icon}/>
+            <div className={styles.icon}>
+                {
+                    type === DownloadType.windows ?
+                        <WindowsSvg/> :
+                        <AppleSvg/>
+                }
+            </div>
+
         }
         <div className={styles.content}>
             {children}
