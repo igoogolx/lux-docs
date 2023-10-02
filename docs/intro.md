@@ -4,44 +4,29 @@ sidebar_position: 0
 
 # Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
 
-## Getting Started
+## What is lux?
+Lux is a cross-platform desktop proxy client that is completely open-source. 
+It supports both the Windows and macOS operating systems, runs at the network layer, and nearly all functionalities are accomplished through an GUI.
 
-Get started by **creating a new site**.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## Motivation
 
-### What you'll need
+Before launching lux, there are many powerful proxy tools. Why lux?  Lux is designed to address the following issues:
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+* Hard to use for average person. I know with some tools, you can control more about their network,even block ads. But power means complexity and not every one needs that.
+* Not open sourced. For some reason, some of those is close sourced. Of course, it not means harm. However, These still need high priviliage, so it's better to be open sourced.
+* Too heavy as a proxy tool.
 
-## Generate a new site
+:::note
+Lux is not a replacement of clash and it will not. If you need more powerful features, just use clash.
+:::
 
-Generate a new Docusaurus site using the **classic template**.
 
-The classic template will automatically be added to your project after you run the command:
+## Feature
 
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+* Light and low memory usage.
+* Based on tun device, just transparent proxy.
+* Built in proxy rules.
+* Support all proxy protocols from clash.
+* GUI-First

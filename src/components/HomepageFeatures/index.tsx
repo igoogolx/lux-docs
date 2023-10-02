@@ -29,7 +29,7 @@ const FeatureList: FeatureItem[] = [
     title: 'Powered by Clash',
     description: (
       <>
-        Support all proxy protocol from clash.
+        Support all proxy protocols from clash.
       </>
     ),
   },
