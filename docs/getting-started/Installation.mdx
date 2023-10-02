@@ -5,9 +5,15 @@ sidebar_position: 1
 
 import Download, {DownloadType} from "./download";
 
+
+
 # Installation
 
+:::caution
 
+To hijack dns, lux will modify system dns on macOS when it's enabled.
+
+:::
 
 ### Install it manually
 <Download type={DownloadType.windows}>
@@ -21,6 +27,8 @@ import Download, {DownloadType} from "./download";
 <Download type={DownloadType.macArm}>
     Download For MacOS Arm
 </Download>
+
+
 
 ### Install it from [winget](https://github.com/microsoft/winget-cli)(windows only)
 ```sh
