@@ -11,9 +11,13 @@ import Download, {DownloadType} from "./download";
 
 :::caution
 
-To hijack dns, lux will modify system dns on macOS when it's enabled.
+* To hijack dns, lux will modify system dns on macOS when it's enabled.
+* Most browsers have enabled the "Secure DNS" feature by default.
+However, it causes dns can't be hijacked.
+Please disable this feature in your browser settings.
 
 :::
+
 
 ### Install it manually
 <Download type={DownloadType.windows}>
