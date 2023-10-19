@@ -6,10 +6,10 @@ sidebar_position: 2
 
 There are 3 dns servers in Lux.
 * Local dns: resolve domains that need to be connected directly.
-* Remote dns: resolve up domains that need to be connected by proxy
+* Remote dns: resolve up domains that need to be connected by proxy.
 * Boost dns:
-  * local DNS or remote dns are set to DNS-over-HTTPS (DoH).
-  * the proxy server is a domain name.
+  * Local dns or remote dns are set to dns-over-https (DoH). For example, https://dns.google/dns-query.
+  * The proxy server is a domain name. For example, example.com.
 
 :::tip
 

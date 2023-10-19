@@ -4,6 +4,8 @@ sidebar_position: 2
 
 # Development
 
+Develop and build on your own.
+
 ## Requirements
 
 * [Git](https://git-scm.com/downloads)
