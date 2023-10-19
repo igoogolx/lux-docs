@@ -68,10 +68,10 @@ dart pub global activate flutter_distributor
 dart run scripts/init.dart
 
 
-#Widows
+#Windows
 flutter_distributor release --name windows-latest
 
-#Macos
+#MacOS
 npm install -g appdmg
 flutter_distributor release --name macos-latest
 ```
