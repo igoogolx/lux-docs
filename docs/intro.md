@@ -6,8 +6,8 @@ sidebar_position: 0
 
 
 ## What is lux?
-Lux is a cross-platform light desktop proxy client that is completely open-source. 
-It supports both the Windows and macOS operating systems, runs at the network layer, and nearly all functionalities are accomplished through an GUI.
+Lux is a cross-platform light desktop proxy client that is open-sourced. 
+It supports both the Windows and macOS operating systems, runs at the network layer.
 
 :::note
 Lux is not intended to replace clash, and it does not aim to do so.
