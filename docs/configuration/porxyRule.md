@@ -7,7 +7,7 @@ sidebar_position: 3
 Select your proxy rule. Lux supports 4 built-in rules.
 
 :::tip
-Please [dns page](dns.md) first.
+Please read [dns page](dns.md) first.
 :::
 
 * Proxy All: 
