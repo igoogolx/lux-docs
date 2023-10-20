@@ -21,13 +21,13 @@ The tun device requires elevated privileges.
 
 ### Why lux is disconnected when os goes to sleep?
 
-If lux keep connected, when os wakes up, network will be available on macOS and memory usage will be huge on Windows.
+If lux keep connected, when os wakes up, network will be unavailable on macOS and memory usage will be huge on Windows.
 The issue is still under investigation.
-So, we better disconnect it and reconnect it when os wakes up.
+So, it's better disconnect it and reconnect it when os wakes up.
 
 ### Does lux use fake ip?
 
-No. Every dns query gets the real ip.
+No. Every dns query gets the real ips.
 
 ### Can I share my proxy with other devices in LAN?
 
@@ -35,7 +35,7 @@ Yes. You can enable a local http server. Then other devices can connect this ser
 
 ### Does lux support secure DNS?
 
-Yes. You cant set local or remote dns as doh.
+Yes. You cant set local or remote dns as DoH.
 
 ### Can lux be used with other vpn?
 
