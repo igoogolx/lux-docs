@@ -16,6 +16,7 @@ Just like a normal app.
 Delete this folder manually.
 
 ```sh
+C:\Users\<username>\AppData\Roaming\com.github.igoogolx\lux
 ```
 
 ### MacOS
