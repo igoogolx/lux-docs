@@ -21,3 +21,9 @@ Lux is not intended to replace clash, and it does not aim to do so.
 * Light and low memory usage.
 * Built in proxy rules.
 * GUI-First, easy to use.
+
+
+![Example banner](../static/img/pages/home.png)
+
+
+![Example banner](../static/img/pages/connection.png)
