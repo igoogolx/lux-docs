@@ -35,7 +35,7 @@ Yes. You can enable a local http server. Then other devices can connect this ser
 
 ### Does lux support secure DNS?
 
-Yes. You cant set local or remote dns as DoH.
+Yes. You can set local or remote dns as DoH.
 
 ### Can lux be used with other vpn?
 
