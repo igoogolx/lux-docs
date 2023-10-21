@@ -23,7 +23,7 @@ Lux is not intended to replace clash, and it does not aim to do so.
 * GUI-First, easy to use.
 
 
-![Example banner](../static/img/pages/home.png)
+![Home](../static/img/pages/home.png)
 
 
-![Example banner](../static/img/pages/connection.png)
+![Connection](../static/img/pages/connection.png)
