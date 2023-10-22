@@ -41,3 +41,8 @@ Yes. You can set local or remote dns as DoH.
 
 No. In this situation, lux may not work as expected. 
 
+
+### Why not webview?
+
+Flutter still does not support Webview on Desktop officially.
+
