@@ -23,7 +23,7 @@ The tun device requires elevated privileges.
 
 If lux keep connected, when os wakes up, network will be unavailable on macOS and memory usage will be huge on Windows.
 The issue is still under investigation.
-So, it's better disconnect it and reconnect it when os wakes up.
+So, it's better to disconnect it and reconnect it when os wakes up.
 
 ### Does lux use fake ip?
 
