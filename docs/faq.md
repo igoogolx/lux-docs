@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 # FAQ
@@ -19,11 +19,11 @@ were traditional network devices.
 Lux leverages the tun device functionality to establish a VPN tunnel and route network traffic through it.
 The tun device requires elevated privileges.
 
-### Why lux is disconnected when os goes to sleep?
 
-If lux keep connected, when os wakes up, network will be unavailable on macOS and memory usage will be huge on Windows.
-The issue is still under investigation.
-So, it's better to disconnect it and reconnect it when os wakes up.
+### Why not clash.meta?
+
+Clash.meat is a forked clash project. It supports tun and more proxy protocols. 
+The reason is that clash is lighter and more stable.  
 
 ### Does lux use fake ip?
 
@@ -33,16 +33,12 @@ No. Every dns query gets the real ips.
 
 Yes. You can enable a local http server. Then other devices can connect this server.
 
-### Does lux support secure DNS?
+### Does lux support secure dns?
 
-Yes. You can set local or remote dns as DoH.
+Yes. You can set local or remote dns as DoH(Dns-over-Https).
 
 ### Can lux be used with other vpn?
 
 No. In this situation, lux may not work as expected. 
 
-
-### Why not webview?
-
-Flutter still does not support Webview on Desktop officially.
 
