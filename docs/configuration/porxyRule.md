@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Proxy Rules
 
-Select your proxy rule. Lux supports 4 built-in rules.
+Select your proxy rule. Lux supports 4 built-in rules. The default is **Proxy All**.
 
 :::tip
 Please read [dns page](dns.md) first.

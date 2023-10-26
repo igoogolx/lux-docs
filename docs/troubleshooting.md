@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Known issues
+# Troubleshooting
 
 
 ### Lux can't keep connected when os goes to sleep.
@@ -12,9 +12,7 @@ The issue is still under investigation.
 So, it's better to disconnect it and reconnect it when os wakes up.
 
 
-### Chrome's dns can't be hijacked on macOS?
 
-This issue 
 
 ### Lux open the dashboard in browser instead of webview.
 
