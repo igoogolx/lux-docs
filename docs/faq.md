@@ -22,8 +22,8 @@ The tun device requires elevated privileges.
 
 ### Why not clash.meta?
 
-Clash.meat is a forked clash project. It supports tun and more proxy protocols. 
-The reason is that clash is lighter and more stable.  
+Clash.meat is a forked clash project that supports tun and more proxy protocols. 
+The reason is that clash is more lightweight and more stable we don't want to reinvent the wheel.
 
 ### Does lux use fake ip?
 
