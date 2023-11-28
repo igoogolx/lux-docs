@@ -20,10 +20,6 @@ Lux leverages the tun device functionality to establish a VPN tunnel and route n
 The tun device requires elevated privileges.
 
 
-### Why not clash.meta?
-
-Clash.meat is a forked clash project that supports tun and more proxy protocols. 
-The reason is that clash is more lightweight and more stable we don't want to reinvent the wheel.
 
 ### Does lux use fake ip?
 
@@ -31,7 +27,7 @@ No. Every dns query gets the real ips.
 
 ### Can I share my proxy with other devices in LAN?
 
-Yes. You can enable a local http server. Then other devices can connect this server.
+Yes. You can enable a local server which is socks and http remix. Then other devices can connect this server.
 
 ### Does lux support secure dns?
 
