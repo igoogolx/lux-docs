@@ -9,7 +9,7 @@ sidebar_position: 5
 * Lux is built on clash's code. But it's not another GUI client of clash. Clash powers lux and make it support more
   proxy protocols.
 * Lux is easy to start because of built-in proxy rules. Clash is highly customized and need more configuration manually.
-* Lux is open sourced completely. However, Clash Premium is close sourced.
+* Lux is open sourced fully. However, Clash Premium is close sourced.
 
 ### Why is elevated privileges needed(root on macOS and admin on Windows)?
 

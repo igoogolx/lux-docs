@@ -16,5 +16,5 @@ So, it's better to disconnect it and reconnect it when os wakes up.
 
 ### Lux open the dashboard in browser instead of webview.
 
-Firstly, flutter still does not support webview on desktop officially. And the available webview plugins are not stable.
+Firstly, flutter still does not support webview on desktop officially. And available webview plugins are not stable.
 
