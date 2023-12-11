@@ -16,5 +16,5 @@ Select your proxy mode: Tun or System Proxy. The default is **Tun**.
 * System Proxy:
     * It is a feature supported by your operate system. Lux will start a local server and set
       the system setting with the local address.
-    * Not all applications support it. Normally, browser will use the setting automatically.
+    * Not all applications support it. Normally, browsers will use the setting automatically.
 
