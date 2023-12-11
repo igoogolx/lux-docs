@@ -11,8 +11,8 @@ Please read [dns page](dns.md) first.
 :::
 
 * Proxy All: 
-  * Domains will be resolved by remote dns.
-  * Ips will be proxied.
+  * All domains will be resolved by remote dns.
+  * All ips will be proxied.
 * Bypass CN: 
   * CN domains will be resolved by local dns. Others are remote dns.
   * CN ips and ips that are from CN domains will be proxied. Others are directed.
@@ -20,6 +20,6 @@ Please read [dns page](dns.md) first.
   * GFW domains will be resolved by remote dns. Others are local dns.
   * Ips that are from GFW domains will be proxied. Others are directed.
 * Bypass All:
-  * Domains will be resolved by local dns.
-  * Ips will be directed.
+  * All domains will be resolved by local dns.
+  * All ips will be directed.
 
