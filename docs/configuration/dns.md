@@ -20,7 +20,8 @@ Conversely, if a domain is resolved through remote dns, its requests will be pro
 :::
 
 ## Supported dns
-* Tcp: tcp://8.8.8.8 ,e.g
+* Tcp: tcp://8.8.8.8:53 ,e.g
+* Udp: udp://8.8.8.8:53 ,e.g
 * Doh: https://dns.google/dns-query ,e.g
 * Dhcp: dhcp://auto
 
