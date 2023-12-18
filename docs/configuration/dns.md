@@ -25,8 +25,10 @@ Conversely, if a domain is resolved through remote dns, its requests will be pro
 * Dhcp: dhcp://auto
 
 
-|      | Local dns | Remote dns | Boost dns  |
-|------|-----------|------------|------------|
-| Tcp  | Y         | Y          | Y          |
-| Doh  | Y         | Y          | N          |
-| Dhcp | Y         | N          | N          |
+|      | Local dns | Remote dns | Boost dns |
+|------|-----------|------------|-----------|
+| Tcp  | Y         | Y          | Y         |
+| Udp  | Y         | N          | Y         |
+| Doh  | Y         | Y          | N         |
+| Dhcp | Y         | N          | N         |
+
