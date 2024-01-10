@@ -45,9 +45,24 @@ There are a number of rules where one might find useful. The following section c
 
 ### DOMAIN
 
-#### Keyword
-`DOMAIN,google/0,policy` routes any domain names to policy that contains `google`.
+`DOMAIN,www.google.com,policy` routes only `www.google.com` to `policy`.
+
+### DOMAIN-SUFFIX
+
+`DOMAIN-SUFFIX,youtube.com,policy` routes any domain names that ends with `youtube.com`.
+
+In this case, `www.youtube.com` and `foo.bar.youtube.com` will be routed to `policy`.
+
+### DOMAIN-KEYWORD
+
+`DOMAIN-KEYWORD,google,policy` routes any domain names to policy that contains `google`.
+
 In this case, `www.google.com` or `googleapis.com` are routed to `policy`.
+
+
+### IP-CIDR
+
+IP-CIDR rules are used to route packets based on the **destination IPv4 address** of the packet.
 
 
 
