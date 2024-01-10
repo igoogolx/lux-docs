@@ -59,6 +59,12 @@ In this case, `www.youtube.com` and `foo.bar.youtube.com` will be routed to `pol
 
 In this case, `www.google.com` or `googleapis.com` are routed to `policy`.
 
+### DOMAIN-REGEX
+
+`DOMAIN-REGEX,.*,policy` routes any domain names to policy that meets regex `.*`.
+
+In this case, `www.google.com` or `googleapis.com` are routed to `policy`.
+
 
 ### IP-CIDR
 
