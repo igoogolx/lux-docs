@@ -63,7 +63,7 @@ In this case, `www.google.com` or `googleapis.com` are routed to `policy`.
 
 `DOMAIN-REGEX,.*,policy` routes any domain names to policy that meets regex `.*`.
 
-In this case, `www.google.com` or `googleapis.com` are routed to `policy`.
+In this case, all domains are routed to `policy`.
 
 
 ### IP-CIDR
