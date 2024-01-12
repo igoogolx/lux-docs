@@ -70,5 +70,8 @@ In this case, `www.google.com` or `googleapis.com` are routed to `policy`.
 
 IP-CIDR rules are used to route packets based on the **destination IPv4 address** of the packet.
 
+`IP-CIDR,8.8.8.8/32,policy` routes any domain names to policy that meets cidr `8.8.8.8/32`.
+
+In this case, `8.8.8.8` are routed to `policy`.
 
 
