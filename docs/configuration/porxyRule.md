@@ -74,7 +74,7 @@ IP-CIDR rules are used to route packets based on the **destination IPv4 address*
 
 In this case, `8.8.8.8` are routed to `policy`.
 
-## PROCESS
+### PROCESS
 
 :::warning
 
