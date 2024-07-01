@@ -74,4 +74,15 @@ IP-CIDR rules are used to route packets based on the **destination IPv4 address*
 
 In this case, `8.8.8.8` are routed to `policy`.
 
+## PROCESS
+
+:::warning
+
+You need to enable **Process Rule** in Setting to use this.
+Currently, only Windows is supported.
+
+:::
+
+`PROCESS,chrome.exe,DIRECT` routes all packets from the process `chrome.exe` to the `DIRECT` outbound. 
+You can find the process of connections in the Data->Connections page.
 
