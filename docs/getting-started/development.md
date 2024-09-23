@@ -73,7 +73,7 @@ flutter_distributor release --name windows-latest
 
 #MacOS
 npm install -g appdmg
-flutter_distributor release --name macos-latest
+flutter_distributor release --name macos-14
 ```
 
 
