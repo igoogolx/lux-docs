@@ -15,16 +15,16 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@docusaurus/core": "^3.4.0",
-    "@docusaurus/preset-classic": "^3.4.0",
-    "@fortawesome/fontawesome-free": "^6.5.2",
-    "@mdx-js/react": "^3.0.1",
-    "axios": "^1.7.2",
+    "@docusaurus/core": "^3.6.3",
+    "@docusaurus/preset-classic": "^3.6.3",
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "@mdx-js/react": "^3.1.0",
+    "axios": "^1.7.9",
     "clsx": "^2.1.1",
-    "prism-react-renderer": "^2.3.1",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "swiper": "^11.1.4"
+    "prism-react-renderer": "^2.4.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "swiper": "^11.1.15"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^3.6.3",
