@@ -27,9 +27,9 @@
     "swiper": "^11.1.4"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "^3.4.0",
+    "@docusaurus/module-type-aliases": "^3.6.3",
     "@tsconfig/docusaurus": "^2.0.3",
-    "typescript": "^5.5.3"
+    "typescript": "^5.7.2"
   },
   "browserslist": {
     "production": [
