@@ -37,4 +37,14 @@ Yes. You can set local or remote dns as DoH(Dns-over-Https).
 
 No. In this situation, lux may not work as expected. 
 
+### Why can’t my macOS connect to the internet after using lux?
 
+When it's tun mode, lux will modify the system DNS to 10.255.0.2. Normally, DNS will be restored after turning off lux.
+However, in some cases, the DNS might not be restored successfully. If this happens, you need to restore it manually. 
+There are two ways to restore the DNS: through [System Settings](https://support.apple.com/guide/mac-help/change-dns-settings-on-mac-mh14127/mac) 
+or by executing the following command lines.
+
+
+```sh
+networksetup -setdnsservers Wi-Fi empty
+```
