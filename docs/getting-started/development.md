@@ -9,9 +9,9 @@ Develop and build on your own.
 ## Requirements
 
 * [Git](https://git-scm.com/downloads)
-* [Node.js](https://nodejs.org/en)(16 or above)
-* [Golang](https://go.dev/)(1.21 or above)
-* [Flutter](https://flutter.dev/)(3.10 or above)
+* [Node.js](https://nodejs.org/en)(20 or above)
+* [Golang](https://go.dev/)(1.24 or above)
+* [Flutter](https://flutter.dev/)(3.29 or above)
 
 
 ## Download projects
@@ -41,7 +41,7 @@ It must be run as root on macOS or admin on Windows
 cd itun2socks
 
 #download third parties
-go run scripts/generate.go
+go generate
 
 go run -tags="with_gvisor debug" -port=9000
 ```
@@ -71,9 +71,13 @@ dart run scripts/init.dart
 #Windows
 flutter_distributor release --name windows-latest
 
-#MacOS
+#MacOS on apple silicon
 npm install -g appdmg
 flutter_distributor release --name macos-14
+
+#MacOS on intel
+npm install -g appdmg
+flutter_distributor release --name macos-13
 ```
 
 
