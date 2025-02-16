@@ -33,10 +33,6 @@ Yes. You can enable a local server which is socks and http remix. Then other dev
 
 Yes. You can set local or remote dns as DoH(Dns-over-Https).
 
-### Can lux be used with other vpn?
-
-No. In this situation, lux may not work as expected. 
-
 ### Why can’t my macOS connect to the internet after using lux?
 
 When it's tun mode, lux will modify the system DNS to 10.255.0.2. Normally, DNS will be restored after turning off lux.
