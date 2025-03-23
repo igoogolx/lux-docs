@@ -79,7 +79,6 @@ In this case, `8.8.8.8` are routed to `policy`.
 :::warning
 
 You need to enable **Process Rule** in Setting to use this.
-Currently, only Windows is supported.
 
 :::
 
