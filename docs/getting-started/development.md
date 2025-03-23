@@ -60,6 +60,15 @@ yarn dev
 
 ## Build
 
+As you can see, lux is released by GitHub action. You can also build it on your own.
+The latest steps are always in [build.yml](https://github.com/igoogolx/lux/blob/main/.github/workflows/build.yml).
+
+
+### Requirements
+
+* [Inno Setup 6 ](https://jrsoftware.org/isinfo.php) (windows only)
+
+
 ```sh
 
 cd lux
