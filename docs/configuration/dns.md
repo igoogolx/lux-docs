@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Dns
 
-Control how domains are resolved. There are 3 dns servers in lux.
+Control how domains are resolved. There are 3 kinds of dns server in lux.
 
 * Local dns: resolve domains that need to be connected directly.
 * Remote dns: resolve up domains that need to be connected by proxy.
