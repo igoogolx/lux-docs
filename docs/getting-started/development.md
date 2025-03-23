@@ -60,6 +60,11 @@ yarn dev
 
 ## Build
 
+### Requirements
+
+* [Inno Setup 6 ](https://jrsoftware.org/isinfo.php) (windows only)
+
+
 ```sh
 
 cd lux
