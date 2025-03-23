@@ -46,7 +46,7 @@ type DownloadProps = {
     children: React.ReactNode
 }
 
-export default function Download(props: DownloadProps) {
+export default function Download(props:Readonly<DownloadProps>) {
     const {type, children} = props
     const [latestTag, setLatestTag] = useState("")
     useEffect(() => {
