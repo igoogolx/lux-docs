@@ -7,7 +7,6 @@
     border: 1px solid black;
     border-radius: 8px;
     padding: 16px 32px;
-    background: white;
     color: black;
     margin-right: 16px;
     align-items: center;
@@ -23,4 +22,8 @@
 .content{
     display: flex;
     align-items: center;
+
+    & p{
+        margin: unset;
+    }
 }

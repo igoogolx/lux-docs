@@ -1,6 +1,6 @@
 {
   "name": "lux-docs",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "private": false,
   "scripts": {
     "docusaurus": "docusaurus",
@@ -29,6 +29,7 @@
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^3.6.3",
     "@tsconfig/docusaurus": "^2.0.3",
+    "prettier": "^3.5.3",
     "typescript": "^5.7.2"
   },
   "browserslist": {
