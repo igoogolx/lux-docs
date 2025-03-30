@@ -27,18 +27,31 @@ Open Terminal.app and enter the following command (you may need to enter a passw
 
 ## Can't connect to the internet after using lux?
 
-### 1.Kill the lux_core process
+### Step1: Kill the lux_core process
 
-[//]: # (TODO)
-Actually, lux_core is real precess.
+Actually, lux_core is the real program to set proxy. Normally, lux_core process will be killed after turning off lux.
+However, in some cases, the process might be still alive. If this happens, you need to kill it manually.
 
-### 2.Restore system setting
+- MacOS: through [Quit process in Activity Monitor](https://support.apple.com/guide/activity-monitor/quit-a-process-actmntr1002/mac) or by executing the following command lines.
+ 
+ ```sh
+sudo killall lux_core
+```
+
+- Windows: through [Quit process in Task Manager](https://support.lenovo.com/us/en/solutions/ht515301-how-to-use-task-manager-to-stop-or-end-processes-windows-10-and-11) or by executing the following command lines as **administrator**.
+
+ ```sh
+ taskkill /IM lux_core.exe /F
+```
+
+### Step2: Restore system setting
 
 - Tun mode(**macOS-only**)
   - When it's tun mode, lux will modify the system DNS to 10.255.0.2. Normally, DNS will be restored after turning off lux.
   However, in some cases, the DNS might not be restored successfully. If this happens, you need to restore it manually.
   There are two ways to restore the DNS: through [System Settings](https://support.apple.com/guide/mac-help/change-dns-settings-on-mac-mh14127/mac)
   or by executing the following command lines.
+   
 
 ```sh
 networksetup -setdnsservers Wi-Fi empty
@@ -51,6 +64,12 @@ networksetup -setdnsservers Wi-Fi empty
    
     - MacOS: through [Change proxy settings](https://support.apple.com/guide/mac-help/change-proxy-settings-on-mac-mchlp2591/mac) or by executing the following command lines.
 
+    - Windows: Settings -> Network & Internet -> Proxy -> Manual proxy setup -> Off
+
 ```sh
+#macOS-only
 networksetup -setwebproxystate Wi-Fi off
 ```
+
+
+### Step3: Restart your device
