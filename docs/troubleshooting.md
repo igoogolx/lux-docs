@@ -52,5 +52,5 @@ networksetup -setdnsservers Wi-Fi empty
     - MacOS: through [Change proxy settings](https://support.apple.com/guide/mac-help/change-proxy-settings-on-mac-mchlp2591/mac) or by executing the following command lines.
 
 ```sh
-networksetup -setdnsservers Wi-Fi empty
+networksetup -setwebproxystate Wi-Fi off
 ```
