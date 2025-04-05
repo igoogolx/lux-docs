@@ -65,7 +65,9 @@ export default function Download(props: Readonly<DownloadProps>) {
           {type === DownloadType.windows ? <WindowsSvg /> : <AppleSvg />}
         </div>
       }
-      <div className={styles.content}>{children}</div>
+      <div className={styles.content}>
+        {children}(v{latestTag})
+      </div>
     </button>
   );
 }
