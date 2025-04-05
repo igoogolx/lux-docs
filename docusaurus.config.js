@@ -8,7 +8,7 @@ const darkTheme = themes.dracula;
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Lux",
-  tagline: "A light desktop proxy client",
+  tagline: "A light desktop proxy app",
   favicon: "img/logo.svg",
 
   // Set the production url of your site here
