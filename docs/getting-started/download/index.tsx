@@ -19,7 +19,7 @@ function downloadRelease(os: DownloadType, tag: string) {
   let url = "";
   switch (os) {
     case DownloadType.windows: {
-      url = `https://github.com/igoogolx/lux/releases/download/v${tag}/lux-${tag}-windows-setup.exe`;
+      url = `https://github.com/igoogolx/lux/releases/download/v${tag}/lux-${tag}-x64-windows.exe`;
       break;
     }
     case DownloadType.macIntel: {
