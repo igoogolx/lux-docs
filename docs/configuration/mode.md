@@ -18,3 +18,6 @@ Select your proxy mode: Tun or System Proxy. The default is **Tun**.
       the system setting with the local address.
     * Not all applications support it. Normally, browsers will use the setting automatically.
 
+* Mixed(Recommended):
+    * Enable Tun and System Proxy at the same time. It has better performance. 
+      App like browsers will use System Proxy automatically. Others use Tun.
