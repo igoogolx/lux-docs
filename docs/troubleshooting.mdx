@@ -27,7 +27,7 @@ Open Terminal.app and enter the following command (you may need to enter a passw
     sudo xattr -r -d com.apple.quarantine /Applications/Lux.app
     ```
 
-## Can't connect to the internet after using lux?
+## Can't connect to the internet after using lux
 
 ### Step1: Kill the lux_core process
 
@@ -75,3 +75,22 @@ networksetup -setwebproxystate Wi-Fi off
 
 
 ### Step3: Restart your device
+
+
+## UWP apps can't use System proxy on Windows like Microsoft Store
+
+It's the [limitation](https://learn.microsoft.com/en-us/answers/questions/1159706/why-does-the-uwp-app-disable-the-loopback-network) of UWP apps. There are two ways to solve this problem:
+
+### 1. Unlimit the loopback for UWP apps.
+
+1. Install [LoopbackManager](https://github.com/Richasy/LoopbackManager.Desktop/blob/main/README_EN.md)
+2. Run LoopbackManager as **administrator**
+3. Select apps you want to unlimit and Save. I suggest that you select all apps
+
+It works on my Windows.
+
+### 2. Use Tun mode
+
+Tun mode uses a virtual network adapter, which is not limited by loopback.
+See [Use With Other VPN](https://igoogolx.github.io/lux-docs/docs/how-to-guides/use-with-other-vpn) first if your server is localhost or 127.0.0.1.
+
