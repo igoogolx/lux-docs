@@ -33,3 +33,8 @@ Conversely, if a domain is resolved through remote dns, its requests will be pro
 | Doh  | Y         | Y          | N         |
 | Dhcp | Y         | N          | N         |
 
+## Fake Ip
+Fake Ip is a feature that forwards remote dns to proxy. 
+* When enabled, remote dns configuration will be ignored.
+* It's useful when you use HTTP proxy, which can't handle UDP.
+* Also, it can avoid the delay of dns query that improves performance.
