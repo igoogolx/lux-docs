@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Uninstallation
 
-There are two steps to remove lux completely.
+Remove lux completely.
 
 ## 1. Uninstall it from os
 Just like a normal app.
