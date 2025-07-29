@@ -1,0 +1,23 @@
+---
+sidebar_position: -1
+---
+
+# Light Client Mode
+
+Use native UI instead of webview.
+
+## Why?
+
+When Lux was born, web technology is the primary way to build cross-platform applications to me.
+However, webview has some limitations, such as:
+* High memory usage
+* Poor support in Flutter desktop(main problem), see https://github.com/flutter/flutter/issues/99597 and https://github.com/igoogolx/lux/issues/130
+
+Therefore, I decided to build a native UI with components of Flutter. However, it doesn't mean webview is dropped.
+Web technology was and will be an important part of Lux.
+Actually, Light Client Mode is a hybrid arch architecture:
+* The simple main UI is built with native components 
+* Other complex UIs are still built with web technology but opened in browser instead of webview
+
+## How to enable?
+Go to **Setting** -> enable **Light Client Mode**. Then restart Lux.

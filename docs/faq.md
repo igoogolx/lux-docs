@@ -23,7 +23,7 @@ The tun device requires elevated privileges.
 
 ### Does lux use fake ip?
 
-No. Every dns query gets the real ips.
+Yes. Go Settings -> Fake IP to enable it and get better network performance.
 
 ### Can I share my proxy with other devices in LAN?
 
