@@ -15,7 +15,7 @@ However, webview has some limitations, such as:
 
 Therefore, I decided to build a native UI with components of Flutter. However, it doesn't mean webview is dropped.
 Web technology was and will be an important part of Lux.
-Actually, Light Client Mode is a hybrid arch architecture:
+Actually, Light Client Mode is a hybrid architecture:
 * The simple main UI is built with native components 
 * Other complex UIs are still built with web technology but opened in browser instead of webview
 
