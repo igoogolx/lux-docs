@@ -85,3 +85,21 @@ You need to enable **Process Rule** in Setting to use this.
 `PROCESS,chrome.exe,DIRECT` routes all packets from the process `chrome.exe` to the `DIRECT` outbound. 
 You can find the process of connections in the Data->Connections page.
 
+### DNS-MAP
+
+:::warning
+
+Use it carefully with Fake DNS enabled.
+
+:::
+
+Control DNS response like host file. `DNS-MAP,example.com;198.0.0.1,DIRECT` maps DNS response of `example.com` to `198.0.0.1`.
+
+Following domain values  are supported:
+
+*  www.example.com
+*  *.example.com
+*  subdomain.*.example.com
+*  .example.com
+*  +.example.com
+
