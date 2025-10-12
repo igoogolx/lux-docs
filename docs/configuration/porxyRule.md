@@ -89,7 +89,7 @@ You can find the process of connections in the Data->Connections page.
 
 :::warning
 
-Use it carefully with Fake DNS enabled.
+Use it carefully with Fake Ip enabled.
 
 :::
 
